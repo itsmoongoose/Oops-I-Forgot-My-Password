@@ -38,6 +38,12 @@
     background-color: transparent;
 }
 
+#free-play-button:active {
+    background-image: url('../img/free-play-active.png');
+    background-color: transparent;
+    transition: none;
+}
+
 #daily-mode-button {
     background-image: url('../img/daily-mode-button.png');
     transition: 0.2s ease-in-out;
@@ -47,5 +53,10 @@
     cursor: pointer;
     background-image: url('../img/daily-mode-hover.png');
     background-color: transparent;
+}
 
+#daily-mode-button:active {
+    background-image: url('../img/daily-mode-active.png');
+    background-color: transparent;
+    transition: none;
 }
