@@ -29,16 +29,23 @@
 
 #free-play-button {
     background-image: url('../img/free-play-button.png');
+    transition: 0.2s ease-in-out;
 }
 
 #free-play-button:hover {
     cursor: pointer;
+    background-image: url('../img/free-play-hover.png');
+    background-color: transparent;
 }
 
 #daily-mode-button {
     background-image: url('../img/daily-mode-button.png');
+    transition: 0.2s ease-in-out;
 }
 
 #daily-mode-button:hover {
     cursor: pointer;
+    background-image: url('../img/daily-mode-hover.png');
+    background-color: transparent;
+
 }
