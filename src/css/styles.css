@@ -1,4 +1,4 @@
-#logo-container {
+#container {
     text-align: center;
 }
 
@@ -15,4 +15,30 @@
     width: 15em;
     height: auto;
     margin-top: 2em;
+}
+
+.game-mode-buttons {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    width: 14em;
+    height: 4.7em;
+    margin: 0.75em 1em;
+}
+
+#free-play-button {
+    background-image: url('../img/free-play-button.png');
+}
+
+#free-play-button:hover {
+    cursor: pointer;
+}
+
+#daily-mode-button {
+    background-image: url('../img/daily-mode-button.png');
+}
+
+#daily-mode-button:hover {
+    cursor: pointer;
 }
