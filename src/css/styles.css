@@ -60,3 +60,7 @@
     background-color: transparent;
     transition: none;
 }
+
+a {
+    color: transparent;
+}
