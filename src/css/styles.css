@@ -72,20 +72,23 @@ a {
 }
 
 #password {
-    width: 40em;
+    width: 34em;
     height: 1.5em;
     border: 2px solid black;
     border-radius: 100px;
     margin-top: 1em;
     padding: 10px;
+    padding-right: 135px;
     font-size: 20px;
     letter-spacing: 0.15em;
 }
 
 #enter-button {
     position: absolute;
-    width: 10em;
-    height: 4em;
+    width: 135px;
+    height: 53px;
+    font-size: 20px;
+    letter-spacing: 0.10em;
     border-radius: 100px;
     margin-left: -133px;
     margin-top: 20.75px;
