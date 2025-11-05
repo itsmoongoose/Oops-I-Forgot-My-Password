@@ -98,3 +98,24 @@ a {
     margin: auto;
     margin-top: 1em;
 }
+
+.red-x {
+    background-image: url('../img/red-x.png');
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+}
+
+.green-check {
+    background-image: url('../img/green-check.png');
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+}
+
+.yellow-q {
+    background-image: url('../img/yellow-q.png');
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+}
