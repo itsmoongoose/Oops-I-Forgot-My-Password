@@ -41,7 +41,7 @@
 #free-play-button:active {
     background-image: url('../img/free-play-active.png');
     background-color: transparent;
-    transition: none;
+    transition: 0.2s ease-in-out;
 }
 
 #daily-mode-button {
@@ -58,7 +58,7 @@
 #daily-mode-button:active {
     background-image: url('../img/daily-mode-active.png');
     background-color: transparent;
-    transition: none;
+    transition: 0.2s ease-in-out;
 }
 
 a {
