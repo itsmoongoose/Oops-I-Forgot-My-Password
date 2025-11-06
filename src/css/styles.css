@@ -107,6 +107,7 @@ a {
     height: 2em;
     background-size: cover;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .red-x {
