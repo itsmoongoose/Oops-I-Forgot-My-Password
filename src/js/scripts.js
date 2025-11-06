@@ -31,9 +31,6 @@ async function main() {
                     //Clear input field
                     passGuess.value = "";
                 }
-
-
-
             event.preventDefault();
         }
 
