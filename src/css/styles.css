@@ -1,4 +1,4 @@
-#container {
+.container {
     text-align: center;
 }
 
@@ -59,4 +59,66 @@
     background-image: url('../img/daily-mode-active.png');
     background-color: transparent;
     transition: none;
+}
+
+a {
+    color: transparent;
+}
+
+.password-container {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+#password {
+    width: 34em;
+    height: 1.5em;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin-top: 1em;
+    padding: 10px;
+    padding-right: 135px;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+}
+
+#enter-button {
+    position: absolute;
+    width: 135px;
+    height: 53px;
+    font-size: 20px;
+    letter-spacing: 0.10em;
+    border-radius: 100px;
+    margin-left: -133px;
+    margin-top: 20.75px;
+    background-color: #d8d8d8;
+}
+
+#answer-container {
+    width: 50em;
+    height: 23em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.red-x {
+    background-image: url('../img/red-x.png');
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+}
+
+.green-check {
+    background-image: url('../img/green-check.png');
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+}
+
+.yellow-q {
+    background-image: url('../img/yellow-q.png');
+    background-size: cover;
+    width: 2em;
+    height: 2em;
 }
