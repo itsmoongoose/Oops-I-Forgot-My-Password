@@ -102,23 +102,21 @@ a {
     margin-top: 1em;
 }
 
-.red-x {
-    background-image: url('../img/red-x.png');
-    background-size: cover;
+.circle {
     width: 2em;
     height: 2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.red-x {
+    background-image: url('../img/red-x.png');
 }
 
 .green-check {
     background-image: url('../img/green-check.png');
-    background-size: cover;
-    width: 2em;
-    height: 2em;
 }
 
 .yellow-q {
     background-image: url('../img/yellow-q.png');
-    background-size: cover;
-    width: 2em;
-    height: 2em;
 }
