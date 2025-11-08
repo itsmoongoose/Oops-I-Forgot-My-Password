@@ -102,6 +102,13 @@ a {
     margin-top: 1em;
 }
 
+.answer-row {
+    display: flex;
+    justify-content: left;
+    gap: 0.1em;
+    margin-bottom: 0.5em;
+}
+
 .circle {
     width: 2em;
     height: 2em;

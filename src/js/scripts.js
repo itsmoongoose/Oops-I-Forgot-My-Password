@@ -13,6 +13,10 @@ async function main() {
             //Remove any whitespace
             let passGuessTrim = passGuess.value.replace(/\s/g, "");
 
+                //Create new row
+                const answerRow = document.createElement("div");
+                answerRow.classList.add("answer-row");
+
                 //Check if input matches answer
                 for (let letter = 0; letter < passGuessTrim.length; letter = letter + 1) {
                     const circle = document.createElement("div");
@@ -25,8 +29,11 @@ async function main() {
                         circle.classList.add("red-x");
                     }
 
-                    //Add circles to container
-                    answerContainer.appendChild(circle);
+                    //Add circles to row
+                    answerRow.appendChild(circle);
+
+                    //Add row to container
+                    answerContainer.appendChild(answerRow);
 
                     //Clear input field
                     passGuess.value = "";
